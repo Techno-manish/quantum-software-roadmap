@@ -213,43 +213,6 @@ Create a `README.md` file:
 ```bash
 touch README.md
 ```
-
-Suggested content:
-
-```md
-# Quantum Software Development Roadmap
-
-This repository documents my 2-month practical learning journey in quantum software development.
-
-## Focus Areas
-
-- Python for quantum computing
-- Qiskit circuit development
-- Quantum algorithms
-- IBM Quantum workflow basics
-- PennyLane quantum machine learning
-- Hybrid quantum-classical models
-- Portfolio projects
-
-## Tools
-
-- Python
-- Qiskit
-- PennyLane
-- NumPy
-- Matplotlib
-- JupyterLab
-- Scikit-learn
-
-## Projects
-
-1. Quantum Random Number Generator
-2. Bell State Visualizer
-3. Grover Search Demo
-4. Quantum Classifier using PennyLane
-5. Final Hybrid Quantum Classifier Capstone
-```
-
 ---
 
 ## 13. Open project in VS Code
