@@ -1,0 +1,25 @@
+# Python virtual environment
+quantum-env/
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code optional
+.vscode/
+
+# Python build files
+build/
+dist/
+*.egg-info/

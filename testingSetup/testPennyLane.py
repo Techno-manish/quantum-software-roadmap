@@ -1,0 +1,14 @@
+import pennylane as qml
+from pennylane import numpy as np
+
+dev = qml.device("default.qubit", wires=1)
+
+@qml.qnode(dev)
+def circuit(theta):
+    qml.RX(theta, wires=0)
+    return qml.expval(qml.PauliZ(0))
+
+theta = np.array(0.5, requires_grad=True)
+
+print(circuit(theta))
+print(qml.grad(circuit)(theta))
