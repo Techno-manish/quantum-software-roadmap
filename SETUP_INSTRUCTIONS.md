@@ -62,6 +62,7 @@ If only Python 3.14 is visible, install Python 3.12 and reopen the terminal.
 
 ## 3. Create project folder
 
+
 Go to your preferred location:
 
 ```bash
